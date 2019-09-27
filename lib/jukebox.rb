@@ -20,7 +20,7 @@ end
 
 def run(songs)
   while true do
-    puts "Please enter a command"
+    puts "Please enter a command:"
     ans = gets.chomp
     case ans
     when "exit"
