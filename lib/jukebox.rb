@@ -7,7 +7,7 @@ def help
 end
 
 def play(songs)
-  puts "Please enter a song name or number"
+  puts "Please enter a song name or number:"
   ans = gets.chomp
   if ans.to_i >= 1 && ans.to_i <= songs.length
     puts "Playing #{songs[ans.to_i-1]}"
